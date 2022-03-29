@@ -1,0 +1,55 @@
+body{
+    margin: 0;
+    padding: 0;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-image: url(./image/pngtree-cute-cute-black-and-white-musical-notes-staff-piano-ps-path-png-image_4588456.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+.klavier{
+    position: relative;
+    display: flex;
+    margin-left: 3px;
+}
+.white{
+    cursor: pointer;
+    width: 50px;
+    height: 135px;
+    background-color: rgb(233, 233, 233);
+    border: 3px solid rgb(2, 2, 2);
+    border-radius: 0 0 5px 5px;
+    outline: none;
+    margin-left: -3px;
+}
+.active{
+    background-color: rgb(180, 180, 180);
+}
+.black{
+    position: absolute;
+    cursor: pointer;
+    width: 30px;
+    height: 90px;
+    background-color: black;
+    border: 3px solid rgb(0, 0, 0);
+    border-radius: 0 0 2px 2px;
+    outline: none;
+}
+.c-black-note{
+    left: 30px;
+}
+.d-black-note{
+    left: 80px;
+}
+.f-black-note{
+    left: 170px;
+}
+.g-black-note{
+    left: 220px;
+}
+.a-black-note{
+    left: 270px;
+}
